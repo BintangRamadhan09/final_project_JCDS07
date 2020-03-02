@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <title>OYO Profitable Properties In Region Prediction</title>
+    <style>
+        h1 {
+            width: 55%;
+            color: black;
+            font-weight: bold;
+            font-family: 'Calibri';
+            font-size: 44px;
+        }
+        
+        .container {
+            width: 50%;
+        
+            margin: 0 auto;
+            padding: 20px;
+            text-align: left;
+            display: inline-block;
+            background-color: red;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;color: white
+            ;
+        }
+    </style>
+</head>
+
+<body>
+
+    <body style="background-color: whitesmoke ;background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/OYO_Rooms_%28logo%29.png/220px-OYO_Rooms_%28logo%29.png');">
+        <center>
+
+            <center>
+                <h1>Deal Recommendation</h1>
+            </center>
+            <center>
+
+                <form method="POST" action="http://localhost:5000/prediction">
+                    <div class="container">
+                        <label for="hub"> <strong>Area</strong></label>
+                        <select name="hub">
+                        <option value="0">Jakarta</option>
+                        <option value="1">Indonesia Timur</option>
+                        <option value="2">Sumatra</option>
+                        <option value="3">Jawa Tengah & Timur</option>
+                        <option value="4">Jawa Barat</option>
+        
+                </select>
+
+                    </div>
+
+                    <!-- <div></div> class="container">  -->
+                     <div class="container">
+                        <label for="SRNs"> <strong>Sellable Rooms: </strong></label>
+                        <input type="number" name="SRNs" placeholder="Input Sellable Rooms" min="1"><br>
+                    </div> 
+
+                    <!-- <div class="container">
+                        <label for="GMV"> <strong>Gross Value: </strong></label>
+                        <input type="number" name="GMV" min="1" placeholder="Input Gross value"><br>
+                    </div> -->
+
+
+                    <div class="container">
+                        <label for="OCC"> <strong>Occupancy : </strong></label>
+                        <input type="number" name="OCC" max="100" min="0" step="0.01" placeholder="Input Occupany in %"><br>
+
+
+                    </div>
+
+                    <!-- <div class="container">
+                        <label for="OTA"> <strong>OTA Booking : </strong></label>
+                        <input type="number" name="OTA" min="0" max="100" step="0.01" placeholder="Input OTA booking in %"><br>
+
+
+                    </div> -->
+
+
+                    <!-- <div class="container">
+
+                        <label for="App"> <strong>From OYO Apps: </strong></label>
+                        <input type="number" name="App" min="0" max="100" step="0.01" placeholder="Input in %"><br>
+
+                    </div> -->
+
+                    <!-- <div class="container">
+                        <label for="Walk_In"> <strong>Walk In: </strong></label>
+                        <input type="number" name="Walk_In" min="0" max="100" step="0.01" placeholder="Input in %"><br>
+
+                    </div> -->
+
+                    <!-- <div class="container">
+
+                        <label for="Web"> <strong>Website: </strong></label>
+                        <input type="number" name="Web" min="0" max="100" step="0.01" placeholder="Input in %"><br>
+
+                    </div> -->
+
+                    <!-- <div class="container">
+
+                        <label for="Direct"> <strong>Direct: </strong></label>
+                        <input type="number" name="Direct" min="0" max="100" step="0.01" placeholder="Input in %"><br>
+
+                    </div> -->
+
+                    <!-- <div class="container">
+
+                        <label for="Rest"> <strong>Others: </strong></label>
+                        <input type="number" name="Rest" placeholder="Input in %" step="0.01" min="0" max="100"><br>
+
+                    </div> -->
+
+                    <div class="container">
+
+                        <label for="ARR"> <strong>Avg Room Rate: </strong></label>
+                        <input type="number" name="ARR" placeholder="Input Room Rate"><br>
+
+                    </div>
+
+
+                    <!-- <div class="container">
+
+                        <label for="Revpar"> <strong>Revenue per Night: </strong></label>
+                        <input type="number" name="Revpar" placeholder="Input Revpar"><br>
+
+                    </div> -->
+
+
+
+                    <!-- <div class="container">
+
+                        <label for="Cancellations"> <strong>Cancelations: </strong></label>
+                        <input type="number" name="Cancellations" min="0" max="100" step="0.01" placeholder="Input in %"><br>
+
+                    </div> -->
+
+<!-- 
+                    <div class="container">
+
+                        <label for="No_Shows"> <strong>No Show: </strong></label>
+                        <input type="number" step="0.01" min="0" max="100" name="No_Shows" placeholder="Input in %"><br>
+
+                    </div> -->
+
+
+<!-- 
+                    <div class="container">
+
+                        <label for="GTR"> <strong>Gross Take Rate: </strong></label>
+                        <input type="number" name="GTR" placeholder="Input in %"><br>
+
+                    </div> -->
+
+
+
+                    <!-- <div class="container">
+
+                        <label for="NTR"> <strong>Net Take Rate: </strong></label>
+                        <input type="number" name="NTR" placeholder="Input in %"><br>
+
+                    </div> -->
+                        
+                      
+
+
+                    <!-- <div class="container">
+
+                        <label for="MM"> <strong>Overall Rating </strong></label>
+                        <input type="number" name="MM" placeholder="Input in number"><br>
+
+                    </div> -->
+<!-- 
+
+                    <div class="container">
+
+                        <label for="MGL"> <strong>MG Loss </strong></label>
+                        <input type="number" name="MGL" placeholder="Input in number"><br>
+
+                    </div> -->
+
+
+
+
+                    <br><br><br>
+                    <button type="submit">Prediction</button>
+
+                    </div>
+
+
+
+                </form>
+            </center>
+            <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+            <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+    </body>
+
+</html>
