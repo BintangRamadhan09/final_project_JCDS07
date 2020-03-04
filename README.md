@@ -2,6 +2,9 @@
 # Determining Area Profitability and Deal Recommendation 
 ## final_project_JCDS07
 
+Dataset for this project is from company dataset, OYO. 
+OYO (stylised as OYO), also known as Oyo Homes & Hotels, is an Indian hotel chain. It is the world's third-largest and fastest-growing hospitality chain of leased and franchised hotels, homes and living spaces.
+
 OYO Indonesia fired more than 1000 employees and closed more than 5000 property partner in Indonesia in order to decrease operating cost, filtering the unprofit property and focus on profitable properties in certain area. While OYO goals on company growth and valuation is :by dealing with new property.
 
 What is PROFITABILITY?
@@ -21,7 +24,7 @@ PROPERTY PROFITABILITY ISSUES :
 - Campaign
 - MG Loss
 
-Machine learning for Determining the profitability  in certain areas :
+Machine learning for Determining the profitability in certain areas :
 
 ![Alt text](image/appFinal.png)
 
@@ -32,11 +35,13 @@ Result :
 After filtering the unprofitable property in certain areas, OYO need to deal with new properties. But the problem is Business Development of OYO have no idea of giving the best take rate for OYO it self. 
 
 
-Machine Learning for deal reommendation by predicting the best Gross Take Rate :
+Machine Learning for deal reommendation by predicting the best Gross Take Rate, by Sellable Room, Average Room Rate and Occupancy(in  the same area) :
 
 ![Alt text](image/appFinal3.png)
 
 Result : 
+
+![Alt text](image/appFinal4.png)
 
 
 
