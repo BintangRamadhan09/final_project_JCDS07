@@ -44,18 +44,12 @@ def predict():
         # NTR = input['NTR']
         # MGL = input['MGL']
 
-        # hubList = ['hub_0', 'hub_BC', 'hub_Bali Nusra', 'hub_Bogor', 'hub_Central Java',
-        # 'hub_Central Sumatra', 'hub_East Java 1', 'hub_East Java 2',
-        # 'hub_East Java 3', 'hub_Jakarta', 'hub_Kalimantan',
-        # 'hub_North Sulawesi', 'hub_North Sumatra', 'hub_South Sulawesi',
-        # 'hub_South Sumatra', 'hub_West Java 1', 'hub_West Java 2',
-        # 'hub_Yogyakarta']
+     
 
-        # prediksi = [[SellableRoom, Gross_Value, Occ, OTA, App, MM, Walk_In, Web, Direct, Others, Arr, Revpar, Cancellations, No_Shows,GTR,NTR, MGL, area ]]
 
         prediksi = [[GTR,OTA,Cancellations,MM,No_Shows,App ]]
         results = model.predict(prediksi)[0]
-        # resultProba = 
+        
 
         if results == 1:
             strResult = 'There are Property in this Hub might be not profitable'
