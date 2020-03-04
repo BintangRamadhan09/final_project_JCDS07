@@ -9,7 +9,7 @@ OYO (stylised as OYO), also known as Oyo Homes & Hotels, is an Indian hotel chai
 #### Business Problems :
 
 OYO Indonesia fired more than 1000 employees and closed more than 10000 property partner in Indonesia in order to decrease operating cost, filtering the unprofit property and focus on profitable properties in certain area. While OYO goals on company growth and valuation is :by dealing with new (profitable) property. 
-[<Link to News>](https://www.cnbcindonesia.com/tech/20200114151313-37-129926/demi-cetak-profit-startup-hotel-oyo-phk-1000-karyawan)
+[click:Link to News](https://www.cnbcindonesia.com/tech/20200114151313-37-129926/demi-cetak-profit-startup-hotel-oyo-phk-1000-karyawan)
 
 What is PROFITABILITY?
 
