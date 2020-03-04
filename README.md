@@ -4,6 +4,28 @@
 
 Dataset for this project is from company dataset, OYO. 
 OYO (stylised as OYO), also known as Oyo Homes & Hotels, is an Indian hotel chain. It is the world's third-largest and fastest-growing hospitality chain of leased and franchised hotels, homes and living spaces.
+Features :
+- Year 
+- Month 
+- Oyo Id 
+- Hub 
+- City 
+- Cluster 
+- SRNs = Sellable Room 
+- GMV = Gross Merchandising Value
+- OCC = Occupany
+- OTA = Online Travel Agent
+- MM = Avearage Rating
+- App = Booking via apps
+- Web = Booking via website
+- Direct = Direct to property
+- Walk_in = walk in booking
+- Rest = Others
+- ARR = Average Room Rate
+- Revpar = Revenue per available rooms
+- GTR = Gross Take Rate
+- NTR = Net Take Rate
+MG_Loss = Minimum Guarantee Loss
 
 
 #### Business Problems :
@@ -26,7 +48,7 @@ PROPERTY PROFITABILITY ISSUES :
 - Low App Contribution
 - Low Price
 - Campaign
-- MG Loss
+- Minimum Guarantee Loss
 
 Machine learning for Determining the profitability in certain areas :
 
