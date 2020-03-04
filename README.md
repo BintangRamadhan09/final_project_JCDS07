@@ -4,6 +4,7 @@
 
 Dataset for this project is from company dataset, OYO. 
 OYO (stylised as OYO), also known as Oyo Homes & Hotels, is an Indian hotel chain. It is the world's third-largest and fastest-growing hospitality chain of leased and franchised hotels, homes and living spaces.
+
 Features :
 - Year 
 - Month 
@@ -25,7 +26,7 @@ Features :
 - Revpar = Revenue per available rooms
 - GTR = Gross Take Rate
 - NTR = Net Take Rate
-MG_Loss = Minimum Guarantee Loss
+- MG_Loss = Minimum Guarantee Loss
 
 
 #### Business Problems :
