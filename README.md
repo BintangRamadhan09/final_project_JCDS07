@@ -22,7 +22,10 @@ PROPERTY PROFITABILITY ISSUES :
 - MG Loss
 
 Machine learning for Determining the profitability  in certain areas :
-![picture]https://github.com/BintangRamadhan09/final_project_JCDS07/blob/master/image/appFinal.png
+
+![picture]image/appFinal.png
+
+
 
 
 
