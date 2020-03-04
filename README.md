@@ -23,7 +23,7 @@ PROPERTY PROFITABILITY ISSUES :
 
 Machine learning for Determining the profitability  in certain areas :
 
-![Alt text](image/appFinal.png0
+![Alt text](image/appFinal.png)
 
 
 
