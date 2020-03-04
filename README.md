@@ -60,6 +60,7 @@ Determining the profitability in certain areas :
 
 **Result** :
 ![Alt text](image/appFinal2.png)
+<hr>
 
 
 After filtering the unprofitable property in certain areas, OYO need to deal with new properties. But the problem is, Business Development of OYO have no idea of giving the best take rate for OYO it self, to prevent unprofitable and loss. 
