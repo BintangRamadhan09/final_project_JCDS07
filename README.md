@@ -1,6 +1,7 @@
-# final_project_JCDS07
 
-Determining Area Profitability and Deal Recommendation
+# Determining Area Profitability and Deal Recommendation 
+## final_project_JCDS07
+
 
 What is PROFITABILITY?
 
@@ -20,6 +21,7 @@ PROPERTY PROFITABILITY ISSUES :
 - MG Loss
 
 Machine learning for Determining the profitability  in certain areas :
+
 
 
 
