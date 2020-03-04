@@ -44,30 +44,11 @@ def predict():
         # NTR = input['NTR']
         # MGL = input['MGL']
 
-        # hubList = ['hub_0', 'hub_BC', 'hub_Bali Nusra', 'hub_Bogor', 'hub_Central Java',
-        # 'hub_Central Sumatra', 'hub_East Java 1', 'hub_East Java 2',
-        # 'hub_East Java 3', 'hub_Jakarta', 'hub_Kalimantan',
-        # 'hub_North Sulawesi', 'hub_North Sumatra', 'hub_South Sulawesi',
-        # 'hub_South Sumatra', 'hub_West Java 1', 'hub_West Java 2',
-        # 'hub_Yogyakarta']
 
-        # prediksi = [[SellableRoom, Gross_Value, Occ, OTA, App, MM, Walk_In, Web, Direct, Others, Arr, Revpar, Cancellations, No_Shows,GTR,NTR, MGL, area ]]
 
         prediksi = [[Occ,Arr,SellableRoom]]
         results = round(model.predict(prediksi)[0],2)
         strResult = f"{(results)}""% is the minimum recommended Gross Take Rate"
-        # dfoyo['targetGTR'] = modelLin.predict(dfoyo[['OCC','ARR','SRNs']])  
-        # resultProba = 
-
-        # if results => 1:
-        #     strResult = 'There are Property in this Hub might be not profitable'
-        #     resultProba = round(model.predict_proba(prediksi)[0][1] * 100,2)
-        # elif results == 0:
-        #     strResult = 'Property in this Hub is still Profitable'
-        #     resultProba = round(model.predict_proba(prediksi)[0][0] * 100,2)
-        # return render_template('prediction.html', SRN = SellableRoom, GMV = Gross_Value, Occupancy = Occ, OTABooking = OTA,
-        # AppBooking = App, WalkIn = Walk_In, WebBooking = Web, DirectBooking = Direct, others = Others, AvgRoomRate = Arr,
-        # RevenueperNight = Revpar, cancellations = Cancellations, no_shows = No_Shows, Gross_Rate = GTR, Net_Rate = NTR, result = strResult, area=areastr, probe=resultProba)
         return render_template('pred.html',SellableRoom=SellableRoom,Occupancy=Occ,AvgRoomRate=Arr,area=areastr,results=strResult)
 @app.route('/NotFound')
 def notFound():
