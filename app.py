@@ -26,20 +26,20 @@ def predict():
             areastr = "Jawa Tengah & Timur"
         else :
             areastr = "Jawa Barat" 
-        SellableRoom = input['SRNs']
+        # SellableRoom = input['SRNs']
         # Gross_Value = int(input['GMV'])
         # Occ = input['OCC']
         OTA = input['OTA']
-        # App = input['App']
-        Walk_In = input['Walk_In']
-        Web = input['Web']
-        # MM = input['MM']
+        App = input['App']
+        # Walk_In = input['Walk_In']
+        # Web = input['Web']
+        MM = input['MM']
         # Direct = input['Direct']
         # Others = input['Rest']
         # Arr = int(input['ARR'])
-        Revpar = int(input['Revpar'])
-        # Cancellations = input['Cancellations']
-        # No_Shows = input['No_Shows']
+        # Revpar = int(input['Revpar'])
+        Cancellations = input['Cancellations']
+        No_Shows = input['No_Shows']
         GTR = input['GTR']
         # NTR = input['NTR']
         # MGL = input['MGL']
@@ -53,7 +53,7 @@ def predict():
 
         # prediksi = [[SellableRoom, Gross_Value, Occ, OTA, App, MM, Walk_In, Web, Direct, Others, Arr, Revpar, Cancellations, No_Shows,GTR,NTR, MGL, area ]]
 
-        prediksi = [[Revpar,SellableRoom,Walk_In,GTR,Web,OTA ]]
+        prediksi = [[GTR,OTA,Cancellations,MM,No_Shows,App ]]
         results = model.predict(prediksi)[0]
         # resultProba = 
 
@@ -66,7 +66,7 @@ def predict():
         # return render_template('prediction.html', SRN = SellableRoom, GMV = Gross_Value, Occupancy = Occ, OTABooking = OTA,
         # AppBooking = App, WalkIn = Walk_In, WebBooking = Web, DirectBooking = Direct, others = Others, AvgRoomRate = Arr,
         # RevenueperNight = Revpar, cancellations = Cancellations, no_shows = No_Shows, Gross_Rate = GTR, Net_Rate = NTR, result = strResult, area=areastr, probe=resultProba)
-        return render_template('prediction.html',RevenueperNight=Revpar, SRN=SellableRoom, WalkIn=Walk_In, Gross_Rate=GTR, WebBooking=Web, OTABooking=OTA,area=areastr,result=strResult,probe=resultProba)
+        return render_template('prediction.html', Gross_Rate=GTR, OTABooking=OTA,cancellations=Cancellations,MM=MM,No_Shows=No_Shows,AppBooking=App,area=areastr,result=strResult,probe=resultProba)
 
 @app.route('/NotFound')
 def notFound():
