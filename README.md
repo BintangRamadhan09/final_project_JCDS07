@@ -25,6 +25,19 @@ Machine learning for Determining the profitability  in certain areas :
 
 ![Alt text](image/appFinal.png)
 
+Result :
+![Alt text](image/appFinal2.png)
+
+
+After filtering the unprofitable property in certain areas, OYO need to deal with new properties. But the problem is Business Development of OYO have no idea of giving the best take rate for OYO it self. 
+
+
+Machine Learning for deal reommendation by predicting the best Gross Take Rate :
+
+![Alt text](image/appFinal3.png)
+
+Result : 
+
 
 
 
