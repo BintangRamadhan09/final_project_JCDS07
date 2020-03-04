@@ -53,11 +53,12 @@ PROPERTY PROFITABILITY ISSUES :
 
 
 Determining the profitability in certain areas :
+<hr>
 
-**bold**Home :
+**Home** :
 ![Alt text](image/appFinal.png)
 
-**bold**Result :
+**Result** :
 ![Alt text](image/appFinal2.png)
 
 
@@ -67,10 +68,10 @@ After filtering the unprofitable property in certain areas, OYO need to deal wit
 Machine Learning for deal recommendation by predicting the best Gross Take Rate, by Sellable Room, Average Room Rate and Occupancy(in  the same area) :
 <hr>
 
-**bold**Home :
+**Home** :
 ![Alt text](image/appFinal3.png)
 
-**bold**Result : 
+**Result** : 
 ![Alt text](image/appFinal4.png)
 
 
